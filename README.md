@@ -1,7 +1,7 @@
 # Project 
 This project is divided into three simple programs: 
 - A simple app to simulate something like an ATM. 
-- A Java agent that uses Javassist to make low-level changes (bytecode) at runtime. 
+- A Java agent that uses [Javassist](https://github.com/jboss-javassist/javassist) to make low-level changes (bytecode) at runtime. 
 - An injector that uses the [Attach API](https://docs.oracle.com/javase/8/docs/technotes/guides/attach/) 
 to attach the agent to the JVM. 
 
